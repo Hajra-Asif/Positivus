@@ -1,0 +1,83 @@
+.accordion-button::after{
+background-image: url(./assetes/Plus\ icon.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(./assetes/minus\ icon\ \(1\).png);
+    background-color: #B9FF66;
+}
+
+.accordion-item{
+    box-shadow: 0px 5px 0px 0px #191A23;
+    border-radius: 20px !important;
+    border-color:  #191A23;
+    overflow: hidden;
+
+}
+.accordion-body{
+    background-color: #B9FF66;
+}
+.accordion-button.collapsed{
+    background-color: #e7e4e4;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #B9FF66; 
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    color: black;
+}
+
+
+.testimonial{
+    background-color: #191A23;
+}
+
+
+.navbar a{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+
+    text-align: center;
+    /* color: white; */color: #000000;
+    margin: 0 auto;
+}
+.navbar a:hover{
+    background-color: #b9ff66;
+    font-weight: 600;
+}
+.team .card:hover, .Services .card:hover{
+    box-shadow: 0px 5px 0px 0px #191A23
+}
+
+@media (max-width:550px){
+    /* .card img{
+        width: 150px;
+        height: 100px;
+    } */
+}
+@media (max-width:991px){
+    .form{
+        display: none !important; 
+    }
+    .footer{
+        border-radius: 0 !important;
+    }
+}
+@media (max-width:2500px) and (min-width:800px){
+    .sm-screen{
+        display: none !important; 
+    }
+}
+@media (max-width:800px){
+    .lg-screen{
+        display: none !important; 
+    }
+    .sm-screen{
+        display: block !important; 
+    }
+    .sm-screen::-webkit-scrollbar {
+        display: none;
+      }
+}

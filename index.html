@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -23,19 +27,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-grow-1 justify-content-end pe-5 gap-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About us</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#Services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Use Cases</a>
+                            <a class="nav-link" href="#Cases">Use Cases</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#Team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#Contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -54,7 +58,7 @@
 
         <div
             class="container-xxl d-flex flex-column flex-lg-row justify-content-between align-items-center px-2 py-5 gap-5">
-            <div class="content ">
+            <div class="content animate__animated animate__slideInLeft">
                 <h1 class="display-4 fw-bold text-center text-lg-start pb-3">Navigating the digital landscape for
                     success</h1>
                 <p class="fs-6 text-center text-lg-start pb-3">Our digital marketing agency helps businesses grow and
@@ -62,7 +66,7 @@
                     content creation.</p>
                 <button class="btn btn-dark btn-lg d-flex m-auto m-lg-0" type="submit">Book a consultation</button>
             </div>
-            <img src="./assetes/Illustration (1).png" alt="" class="w-50" style="min-width: 280px; max-width: 750px;">
+            <img src="./assetes/Illustration (1).png" alt="" class="w-50 animate__animated animate__slideInRight" style="min-width: 280px; max-width: 750px;">
         </div>
 
         <div class="container-xxl d-flex justify-content-lg-between justify-content-center flex-wrap gap-5 ">
@@ -74,26 +78,556 @@
             <img src="./assetes/zoom.png" alt="">
         </div>
 
-        <div
+        <div id="Services"
             class="container-xxl mt=5 pt-5 d-flex gap-5 flex-column flex-lg-row text-center text-lg-start justify-content-center justify-content-lg-start">
-            <h4 style="width: 120px; height: 40px; background-color: greenyellow;"
+            <h4 style="width: 120px; height: 40px; background-color: #B9FF66;"
                 class="text-center p-1 fw-bold mx-auto mx-lg-0">Services</h4>
             <p>At our digital marketing agency, we offer a range of services to <br> help businesses grow and succeed
                 online. These services include:</p>
         </div>
 
-        <div class="container-xxl p-5 d-flex justify-content-between mt-5 rounded overflow-x-scroll" style="background-color: rgb(44, 44, 44); color: white;">
-            <div class="w-25">
-                <p>For a local restaurant, we implemented a targeted PPC campaign  that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                <button class="btn btn-outline-success d-flex  mt-5" type="submit">Book a consultation</button>
+
+
+
+        <div class="container-xxl">
+            <div class="row g-5 mt-5 justify-content-center Services">
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <div class="card ps-4" style="border-radius: 30px; background-color: #F3F3F3; border-radius: 15px; border: 1px solid #191A23">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1" style="width: 200px; height: 70px; background-color: #B9FF66;">Search
+                                engine <br> optimization</h4>
+                            <img src="./assetes/Illustration (2).png" alt="" style="width: 210px; height: 160px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (8).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12 ">
+                    <div class="card ps-4"
+                        style="border-radius: 30px; background-color: #B9FF66; border-radius: 15px; border: 1px solid #191A23 ">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1"
+                                style="width: 200px; height: 70px; background-color: rgb(255, 255, 255);">
+                                Pay-per-click <br> advertising</h4>
+                            <img src="./assetes/ill-3.png" alt="" style="width: 210px; height: 160px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (8).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <div class="card ps-4"
+                        style="border-radius: 30px; background-color: #222222; border-radius: 15px; border: 1px solid #191A23 ">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1"
+                                style="width: 200px; height: 70px; background-color: rgb(248, 248, 248);">
+                                Social Media<br> Marketing</h4>
+                            <img src="./assetes/ill-4.png" alt="" style="width: 210px; height: 160px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (1).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0 text-light">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <div class="card ps-4"
+                        style="border-radius: 30px; background-color: #F3F3F3; border-radius: 15px; border: 1px solid #191A23">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1" style="width: 200px; height: 70px; background-color: greenyellow;">
+                                Email
+                                <br> Marketing
+                            </h4>
+                            <img src="./assetes/ill5.png" alt="" style="width: 210px; height: 160px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (8).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <div class="card ps-4"
+                        style="border-radius: 30px; background-color: #B9FF66; border-radius: 15px; border: 1px solid #191A23">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1"
+                                style="width: 200px; height: 70px; background-color: rgb(255, 255, 255);">
+                                Content <br> Creation</h4>
+                            <img src="./assetes/ill-6.png" alt="" style="width: 210px; height: 160px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (8).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <div class="card ps-4"
+                        style="border-radius: 30px; background-color: #222222; border-radius: 15px; border: 1px solid #191A23">
+                        <div class="cardbody d-flex flex-column gap-1 align-items-start">
+                            <h4 class="mt-3 p-1" style="width: 200px; height: 70px; background-color: greenyellow;">
+                                Analytics and <br> Tracking</h4>
+                            <img src="./assetes/ill7.png" alt="" style="width: 210px; height: 170px;"
+                                class="align-self-end px-3">
+                            <div class="icon d-flex gap-2 align-items-center pb-3">
+                                <img src="./assetes/Icon (8).png" style="width: 30px; height: 30px;">
+                                <p class="fs-5 mb-0 text-light">learn more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
-            <div class="w-25">
-                <p>For a local restaurant, we implemented a targeted PPC campaign <br> that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                <button class="btn btn-outline-success d-flex  mt-5" type="submit">Book a consultation</button>
+        </div>
+
+
+
+
+
+
+        <div class="container-xxl d-flex flex-column flex-lg-row justify-content-between align-items-center bg-body-tertiary mt-5 p-5 p-lg-0 px-lg-5 gap-5"
+            style="border-radius: 10px;">
+            <div class="content ">
+                <h4 class="fs-3 text-center text-lg-start pb-3">Let’s make things happen</h4>
+                <p class="fs-6 text-center text-lg-start pb-3">Contact us today to learn more about how our digital
+                    marketing services <br> can help your business grow and succeed online.</p>
+                <button class="btn btn-dark d-flex px-4 m-auto m-lg-0" type="submit">Get your free proposal</button>
             </div>
-            <div class="w-25">
-                <p>For a local restaurant, we implemented a targeted PPC campaign <br> that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                <button class="btn btn-outline-success d-flex  mt-5" type="submit">Book a consultation</button>
+            <img src="./assetes/Illustration.png" alt="" class="w-25" style="min-width: 280px; max-width: 359px;">
+        </div>
+
+        <div id="Cases"
+            class="container-xxl mt=5 pt-5 d-flex gap-5 flex-column flex-lg-row text-center text-lg-start justify-content-center justify-content-lg-start">
+            <h4 style="width: 200px; height: 40px; background-color: #B9FF66;"
+                class="text-center p-1 fw-bold mx-auto mx-lg-0">Case Studies</h4>
+            <p>Explore Real-Life Examples of Our Proven Digital Marketing <br> Success through Our Case Studies</p>
+        </div>
+
+
+        <!-- large screen view -->
+
+
+        <div class="container-xxl mt-5 lg-screen">
+            <div class="content bg-dark text-light d-flex  p-5" style="border-radius: 30px;">
+                <div>
+                    <p class="w-75">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+                <div>
+                    <p class="w-75">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+                <div>
+                    <p class="w-75">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- slider for small screen -->
+
+        <div class="container-xxl my-5 sm-screen">
+            <div class="content text-light d-flex  p-lg-5 p-sm-3 gap-5 overflow-x-scroll">
+                <div class="bg-dark p-5" style="border-radius: 30px; min-width: 300px; max-width: 800px;">
+                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+                <div class="bg-dark p-5" style="border-radius: 30px;  min-width: 300px; max-width: 800px;">
+                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+                <div class="bg-dark p-5" style="border-radius: 30px;  min-width: 300px; max-width: 800px;">
+                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50%
+                        increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="icon d-flex gap-2 align-items-center pb-3">
+                        <p class="fs-5 mb-0" style="color: #B9FF66; text-transform: capitalize;">learn more</p>
+                        <img src="./assetes/Icon (2).png" style="width: 15px; height: 15px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- FAQs -->
+
+        <div class="container-xxl">
+            <div
+                class=" my-5 pt-5 d-flex gap-5 flex-column flex-lg-row text-center text-lg-start justify-content-center justify-content-lg-start">
+                <h4 style="width: 280px; height: 40px; background-color: #B9FF66;"
+                    class="text-center p-1 fw-bold mx-auto mx-lg-0">Our Working Process </h4>
+                <p>Step-by-Step Guide to Achieving <br> Your Business Goals</p>
+            </div>
+
+
+            <div class="accordion my-5" id="accordionExample">
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>01 <span class="fs-4">Consultation</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>02 <span class="fs-4">Research and Strategy Development</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>03 <span class="fs-4">Implementation</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>04 <span class="fs-4">Monitoring and Optimization</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>05 <span class="fs-4">Reporting and Communication</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h1>06 <span class="fs-4">Continual Improvement</span></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor our services to best fit your requirements.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- testimonial -->
+
+            <div class="container-xxl" >
+                <div id="Team"
+                    class=" my-5 pt-5 d-flex gap-5 flex-column flex-lg-row text-center text-lg-start justify-content-center justify-content-lg-start">
+                    <h4 style="width: 80px; height: 40px; background-color: #B9FF66;"
+                        class="text-center p-1 fw-bold mx-auto mx-lg-0">Team</h4>
+                    <p>Hear from Our Satisfied Clients: Read Our Testimonials <br> to Learn More about Our Digital
+                        Marketing Services</p>
+                </div>
+
+
+                <div class="container-xxl team">
+                    <div class="row">
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3"
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture1.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3" style="border-radius: 15px; border: 1px solid #191A23; ;
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture2.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3" style="border-radius: 15px; border: 1px solid #191A23; ;
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture3.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3" style="border-radius: 15px; border: 1px solid #191A23; ;
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture4.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3" style="border-radius: 15px; border: 1px solid #191A23; ;
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture5.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 .col-md-6 .col-sm-12 pt-5">
+                            <div class="card p-3" style="border-radius: 15px; border: 1px solid #191A23; ;
+">
+                                <div class="card-body" style="position: relative;">
+                                    <img src="./assetes/Social icon.png" alt="" style="position: absolute; right: 2%;">
+                                    <div class="card-head d-flex flex-lg-row flex-md-row flex-column align-items-center gap-5 pb-4"
+                                        style="border-bottom: 1px solid black;">
+                                        <img src="./assetes/Picture6.png" alt="">
+                                        <p class="fs-5 fw-bold">John Smith <span class="fw-normal"><br>CEO and
+                                                Founder</span></p>
+                                    </div>
+                                    <p class="py-3">10+ years of experience in digital marketing. Expertise in SEO, PPC,
+                                        and content strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button class="btn btn-dark mt-4 w-25 " type="submit">See All Team</button> -->
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <div id="Contact"
+                    class="container-xxl mt=5 py-5 d-flex gap-5 flex-column flex-lg-row text-center text-lg-start justify-content-center justify-content-lg-start">
+                    <h4 style="width: 200px; height: 40px; background-color: #B9FF66; "
+                        class="text-center p-1 fw-bold mx-auto mx-lg-0 ">Contact Us</h4>
+                    <p>Connect with Us: Let's Discuss Your <br> Digital Marketing Needs</p>
+                </div>
+
+                <div class="container-xxl py-5 ps-4 bg-body-tertiary" style="border-radius: 45px;">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="form-check form-check-inline pb-4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Say Hi</label>
+                            </div>
+                            <div class="form-check form-check-inline pb-4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Get a Quote</label>
+                            </div>
+                            <div class="mb-3 pb-4">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                            </div>
+                            <div class="mb-3 pb-4">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
+                            <div class="mb-3 pb-4">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message*</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <button
+                                class="btn btn-dark d-flex px-4 m-auto m-lg-0 text-center w-100 justify-content-center" type="submit">Send Message</button>
+                        </div>
+
+
+                        <div class="form col-lg-6 col-sm-12">
+
+                           <div class="d-flex justify-content-end">
+                            <img src="./assetes/form.png" class="" alt="">
+                           </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+        <!-- footer -->
+
+        <div class="container-xxl mt-5 pt-5 footer" id="Blog" style="background-color: #191A23; border-radius: 45px 45px 0 0;">
+            <div class="row p-3">
+                <div class="col-lg-1 col-sm-12 ps-2 ps-lg-5 m-auto">
+                    <div class="logo d-flex  pb-lg-0 pb-5">
+                        <img src="./assetes/Logowhite.png" alt="" style="width: 100px;">
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-sm-12">
+                    <ul class="d-flex flex-column flex-lg-row gap-5 text-light flex-grow-1 justify-content-center p-0 "
+                        style="list-style-type: none; text-decoration: underline;">
+                        <li>About us</li>
+                        <li>Services</li>
+                        <li>Use Cases</li>
+                        <li>Pricing</li>
+                        <li class="pb-lg-0 pb-4">Blog</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-sm-12 ">
+                    <div class="social d-flex  pb-lg-0 pb-0">
+                        <img src="./assetes/social.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 mt-5 ps-lg-5">
+                    <div class="content text-light d-flex flex-column gap-3">
+                        <h4 style="width: 136px; height: 40px; border-radius: 10px; background-color: #B9FF66; font-size: 20px;"
+                            class="fw-bold p-2 text-dark">
+                            Contact Us</h4>
+                        <p>Email: info@positivus.com</p>
+                        <p>Phone: 555-567-8901</p>
+                        <p>Address: 1234 Main St <br> Moonstone City, Stardust State 12345</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-lg-end pe-5 " >
+                    <div class="button p-lg-5 p-2 mt-4 mt-lg-0" style=" background-color: #393a41;">
+                        <form class="d-flex flex-column flex-lg-row gap-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success text-dark pt-1" type="submit"
+                                style="background-color: #B9FF66;">Subscribe to news</button>
+                        </form>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
 
@@ -112,7 +646,6 @@
 
 
 
-    </div>
 
 
 
@@ -147,22 +680,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
